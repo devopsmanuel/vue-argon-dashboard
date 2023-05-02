@@ -114,6 +114,7 @@
       </li>
     </ul>
   </div>
+  <!--
   <div class="pt-3 mx-3 mt-3 sidenav-footer">
     <sidenav-card
       :class="cardBg"
@@ -121,10 +122,11 @@
       textSecondary="Please check our docs"
     />
   </div>
+  -->
 </template>
 <script>
 import SidenavItem from "./SidenavItem.vue";
-import SidenavCard from "./SidenavCard.vue";
+//import SidenavCard from "./SidenavCard.vue";
 
 export default {
   name: "SidenavList",
@@ -140,7 +142,7 @@ export default {
   },
   components: {
     SidenavItem,
-    SidenavCard
+    //SidenavCard
   },
   methods: {
     getRoute() {
